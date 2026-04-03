@@ -4,6 +4,7 @@ import Hero     from './components/Hero'
 import Services from './components/Services'
 import Portfolio from './components/Portfolio'
 import Contact  from './components/Contact'
+import ChatBot  from './components/ChatBot'
 import th from './i18n/th.json'
 import en from './i18n/en.json'
 
@@ -23,6 +24,7 @@ export default function App() {
         <div className="divider" />
         <Portfolio t={t} />
         <Contact t={t} />
+        <ChatBot lang={lang} setLang={setLang} t={t}/>
       </main>
     </>
   )
