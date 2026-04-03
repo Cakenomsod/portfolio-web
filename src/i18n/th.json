@@ -6,8 +6,8 @@
   },
   "hero": {
     "badge": "พร้อมรับงานแล้ว",
-    "greeting": "สวัสดี, ผม",
-    "name": "เพชญเกล้า",
+    "greeting": "สวัสดีครับผมมมม",
+    "name": "เพชญเกล้า ",
     "sub": "Freelancer ที่ทำได้ครบในคนเดียว — Developer, Video Editor และช่างภาพ รับงานทั้งตลาดไทยและต่างประเทศ",
     "cta_hire": "ติดต่อจ้างงาน",
     "cta_work": "ดูผลงาน"
@@ -37,41 +37,62 @@
       "pkg3": { "name": "Pro 6+ หน้า", "desc": "เว็บครบสำหรับธุรกิจขนาดกลาง" }
     },
     "s3": {
+      "title": "Full-Website System",
+      "desc": "Authentication, Database, Admin Page",
+      "pkg1": { "name": "Basic", "desc": "Authentication" },
+      "pkg2": { "name": "Business", "desc": "Authentication, Database" },
+      "pkg3": { "name": "Pro", "desc": "Authentication, Database, Admin Page" }
+    },
+    "s4": {
       "title": "Chatbot AI",
       "desc": "Line / Website / Facebook",
       "pkg1": { "name": "Basic — FAQ Bot", "desc": "ตอบข้อความตายตัว เหมาะกับ FAQ" },
       "pkg2": { "name": "AI — Smart Bot", "desc": "บอทใช้ AI ตอบได้ตามบริบท" },
       "pkg3": { "name": "Pro — AI + Database", "desc": "บอท AI เชื่อมต่อฐานข้อมูล" }
     },
-    "s4": {
+    "s5": {
+      "title": "ตั้งค่า Line OA ครบวงจร",
+      "desc": "Rich Menu, Auto Reply, บอทอัตโนมัติ",
+      "pkg1": { "name": "Basic — ตั้งค่าพื้นฐาน", "desc": "Profile, Welcome Message, Rich Menu สวยงาม" },
+      "pkg2": { "name": "Auto — ระบบตอบกลับ", "desc": "FAQ ตามคีย์เวิร์ด + บันทึกข้อมูลลง Google Sheets" },
+      "pkg3": { "name": "AI Bot — บอทฉลาด", "desc": "บอท AI เข้าใจบริบท ตอบคำถามแทนคุณได้ 24 ชม." }
+    },
+    "s6": {
       "title": "IoT & ESP32",
       "desc": "ระบบอัตโนมัติ Online/Offline",
       "pkg1": { "name": "Offline", "desc": "ควบคุมอุปกรณ์ไม่ต้องเชื่อมเน็ต" },
       "pkg2": { "name": "IoT Basic", "desc": "ควบคุมผ่านแอปหรือดูข้อมูลออนไลน์" },
       "pkg3": { "name": "IoT Pro", "desc": "IoT ครบ + แจ้งเตือน + Dashboard" }
     },
-    "s5": {
+    "s7": {
       "title": "ตัดต่อวิดีโอ",
       "desc": "Reels, YouTube, Event",
       "pkg1": { "name": "Short ≤ 1 นาที", "desc": "Reels / TikTok / Short สูงสุด 60 วินาที" },
       "pkg2": { "name": "Standard 1–5 นาที", "desc": "YouTube, โฆษณา, แนะนำสินค้า" },
       "pkg3": { "name": "Event 5+ นาที", "desc": "Highlight งานกีฬา, งานพิธี" }
     },
-    "s6": {
+    "s8": {
+      "title": "ใส่ Subtitle & Caption",
+      "desc": "บทบรรยายวิดีโอ แม่นยำ ปรับสไตล์ได้",
+      "pkg1": { "name": "S — ไม่เกิน 5 นาที", "desc": "วิดีโอสั้น Reels / TikTok / Shorts" },
+      "pkg2": { "name": "M — 5–20 นาที", "desc": "YouTube, Podcast, วิดีโอความยาวกลาง" },
+      "pkg3": { "name": "L — 20 นาทีขึ้นไป", "desc": "สัมมนา, คอร์สเรียน, งาน Event ยาว" }
+    },
+    "s9": {
       "title": "ถ่ายภาพ",
       "desc": "Portrait, Event, งานพิธี",
       "pkg1": { "name": "Portrait", "desc": "1–2 ชั่วโมง ประมาณ 30–50 ภาพ" },
       "pkg2": { "name": "Event ครึ่งวัน", "desc": "งานกีฬา, Event ครึ่งวัน" },
       "pkg3": { "name": "Event เต็มวัน", "desc": "งานกีฬา, Event เต็มวัน" }
     },
-    "s7": {
+    "s10": {
       "title": "ตัดแต่งรูปภาพ",
       "desc": "Retouch, ตัดพื้นหลัง, Colour Grade",
       "pkg1": { "name": "ตัดพื้นหลัง", "desc": "ตัดพื้นหลังทั่วไปและซับซ้อน" },
       "pkg2": { "name": "Retouch & ปรับสี", "desc": "Retouch บุคคล ปรับแสงสี" },
       "pkg3": { "name": "Bulk 10+ รูป", "desc": "ยิ่งจำนวนมากยิ่งถูก" }
     },
-    "s8": {
+    "s11": {
       "title": "ปั้น 3D Model",
       "desc": "Humanoid, Object, Place",
       "pkg1": { "name": "Object", "desc": "สิ่งของ, ไอเทม, อาหาร" },
@@ -97,7 +118,7 @@
   },
   "contact": {
     "heading": "พร้อมรับงานของคุณ",
-    "sub": "ทำตัวอย่างให้ดูก่อนฟรี ปรับแก้ไม่จำกัดรอบ",
+    "sub": "ทำตัวอย่างให้ดูก่อนฟรี ปรับแก้ไม่จำกัดรอบ หรือจนกว่าผมจะร้องไห้",
     "line": "Line",
     "facebook": "Facebook",
     "phone": "080-802-6677"

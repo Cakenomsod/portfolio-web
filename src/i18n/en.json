@@ -6,7 +6,7 @@
   },
   "hero": {
     "badge": "Available for work",
-    "greeting": "Hi, I'm",
+    "greeting": "Hiiii, I'm",
     "name": "Phetklao",
     "sub": "Full-stack freelancer — Developer, Video Editor & Photographer. Available for Thai and international clients.",
     "cta_hire": "Hire me",
@@ -37,41 +37,62 @@
       "pkg3": { "name": "Pro 6+ pages", "desc": "Full website for medium-sized business" }
     },
     "s3": {
+      "title": "Full-Website System",
+      "desc": "Authentication, Database, Admin Page",
+      "pkg1": { "name": "Basic", "desc": "Authentication" },
+      "pkg2": { "name": "Business", "desc": "Authentication, Database" },
+      "pkg3": { "name": "Pro", "desc": "Authentication, Database, Admin Page" }
+    },
+    "s4": {
       "title": "AI Chatbot",
       "desc": "Line / Website / Facebook",
       "pkg1": { "name": "Basic — FAQ Bot", "desc": "Fixed responses, great for FAQ" },
       "pkg2": { "name": "AI — Smart Bot", "desc": "Context-aware AI responses" },
       "pkg3": { "name": "Pro — AI + Database", "desc": "AI bot connected to a database" }
     },
-    "s4": {
+    "s5": {
+      "title": "Line OA Setup",
+      "desc": "Rich Menu, Auto Reply, Chatbot",
+      "pkg1": { "name": "Basic Setup", "desc": "Profile, Welcome Message, Custom Rich Menu" },
+      "pkg2": { "name": "Auto — FAQ System", "desc": "Keyword-based replies + Google Sheets integration" },
+      "pkg3": { "name": "AI Bot — Smart Assistant", "desc": "Context-aware AI bot to handle your customers 24/7" }
+    },
+    "s6": {
       "title": "IoT & ESP32",
       "desc": "Online/Offline automation systems",
       "pkg1": { "name": "Offline", "desc": "Control devices without internet" },
       "pkg2": { "name": "IoT Basic", "desc": "Control via app or monitor online" },
       "pkg3": { "name": "IoT Pro", "desc": "Full IoT + alerts + dashboard" }
     },
-    "s5": {
+    "s7": {
       "title": "Video Editing",
       "desc": "Reels, YouTube, Event highlights",
       "pkg1": { "name": "Short ≤ 1 min", "desc": "Reels / TikTok / Shorts up to 60s" },
       "pkg2": { "name": "Standard 1–5 min", "desc": "YouTube, ads, product showcase" },
       "pkg3": { "name": "Event 5+ min", "desc": "Sports, ceremony, event highlights" }
     },
-    "s6": {
+    "s8": {
+      "title": "Subtitle & Caption",
+      "desc": "Accurate captions with customizable styles",
+      "pkg1": { "name": "S — Under 5 mins", "desc": "Short-form content like Reels, TikTok, Shorts" },
+      "pkg2": { "name": "M — 5–20 mins", "desc": "YouTube, Podcast, Medium-length videos" },
+      "pkg3": { "name": "L — 20+ mins", "desc": "Seminars, online courses, long event footage" }
+    },
+    "s9": {
       "title": "Photography",
       "desc": "Portrait, Event, Ceremony",
       "pkg1": { "name": "Portrait", "desc": "1–2 hrs, approx. 30–50 photos" },
       "pkg2": { "name": "Half-day Event", "desc": "Sports, events, half day" },
       "pkg3": { "name": "Full-day Event", "desc": "Sports, events, full day" }
     },
-    "s7": {
+    "s10": {
       "title": "Photo Editing",
       "desc": "Retouch, background removal, colour grading",
       "pkg1": { "name": "Background Removal", "desc": "Standard and complex backgrounds" },
       "pkg2": { "name": "Retouch & Colour", "desc": "Portrait retouch, light & colour adjust" },
       "pkg3": { "name": "Bulk 10+ photos", "desc": "More photos, lower per-photo rate" }
     },
-    "s8": {
+    "s11": {
       "title": "3D Modeling",
       "desc": "Humanoid, Object, Place",
       "pkg1": { "name": "Object", "desc": "Items, props, food" },
@@ -97,7 +118,7 @@
   },
   "contact": {
     "heading": "Ready to work with you",
-    "sub": "Free sample before you commit. Unlimited revisions.",
+    "sub": "Free sample before you commit. Unlimited revisions. Or until I cry",
     "line": "Line",
     "facebook": "Facebook",
     "phone": "080-802-6677"
