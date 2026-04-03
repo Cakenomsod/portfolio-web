@@ -42,18 +42,35 @@ const ChatBot = ({ lang }) => {
     if (scrollRef.current) scrollRef.current.scrollTop = scrollRef.current.scrollHeight;
   }, [messages, isOpen]);
 
-  const handleSend = () => {
+    const handleSend = async () => {
     if (!input.trim()) return;
-    setMessages([...messages, { role: 'user', text: input }]);
+    
+    const userMsg = { role: 'user', text: input };
+    setMessages(prev => [...prev, userMsg]);
     setInput('');
 
-    setTimeout(() => {
-      setMessages(prev => [...prev, { 
+    try {
+        // ยิงไปที่ URL ของ Railway ของคุณ
+        const response = await fetch('https://line-bot-phetklao-production.up.railway.app/webchat', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ 
+            message: input,
+            session_id: 'guest-' + Date.now() // สร้าง ID ชั่วคราวให้ผู้ใช้เว็บ
+        }),
+        });
+
+        const data = await response.json();
+        
+        // เอาคำตอบจาก AI มาแสดง
+        setMessages(prev => [...prev, { role: 'bot', text: data.reply }]);
+    } catch (error) {
+        setMessages(prev => [...prev, { 
         role: 'bot', 
-        text: lang === 'th' ? 'รับทราบครับ...' : 'Understood...' 
-      }]);
-    }, 1000);
-  };
+        text: lang === 'th' ? 'ขออภัยครับ เชื่อมต่อไม่ได้' : 'Connection Error' 
+        }]);
+    }
+    };
 
   return (
     <div className="chatbot-container" ref={chatWindowRef} style={{ position: 'fixed', bottom: '25px', right: '25px', zIndex: 1000 }}>
