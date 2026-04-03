@@ -1,0 +1,136 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --bg: #ffffff;
+  --bg2: #f7f6f3;
+  --bg3: #f1f0ec;
+  --text: #1a1a18;
+  --text2: #6b6a64;
+  --text3: #9b9a94;
+  --border: rgba(0,0,0,0.1);
+  --border2: rgba(0,0,0,0.18);
+  --blue: #185FA5;
+  --blue-bg: #E6F1FB;
+  --green-bg: #EAF3DE;
+  --green: #3B6D11;
+  --amber-bg: #FAEEDA;
+  --amber: #854F0B;
+  --radius: 8px;
+  --radius-lg: 12px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1c1c1a;
+    --bg2: #242422;
+    --bg3: #2a2a28;
+    --text: #e8e6de;
+    --text2: #9b9a94;
+    --text3: #6b6a64;
+    --border: rgba(255,255,255,0.1);
+    --border2: rgba(255,255,255,0.18);
+    --blue-bg: #0c2a4a;
+    --blue: #85B7EB;
+    --green-bg: #1a2e0a;
+    --green: #97C459;
+    --amber-bg: #2e1f06;
+    --amber: #EF9F27;
+  }
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  font-size: 16px;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+
+a { color: inherit; text-decoration: none; }
+button { cursor: pointer; font-family: inherit; }
+img { max-width: 100%; }
+
+.container {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.section { padding: 48px 0; }
+
+.section-label {
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--text3);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 20px;
+}
+
+.divider {
+  height: 0.5px;
+  background: var(--border);
+}
+
+.btn-primary {
+  padding: 10px 20px;
+  border-radius: var(--radius);
+  background: var(--text);
+  color: var(--bg);
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  transition: opacity 0.15s;
+}
+.btn-primary:hover { opacity: 0.85; }
+
+.btn-secondary {
+  padding: 10px 20px;
+  border-radius: var(--radius);
+  background: transparent;
+  color: var(--text);
+  font-size: 14px;
+  border: 0.5px solid var(--border2);
+  transition: background 0.15s;
+}
+.btn-secondary:hover { background: var(--bg2); }
+
+.tag {
+  display: inline-block;
+  font-size: 11px;
+  padding: 3px 10px;
+  border-radius: 999px;
+  font-weight: 500;
+}
+.tag-blue   { background: var(--blue-bg);   color: var(--blue); }
+.tag-green  { background: var(--green-bg);  color: var(--green); }
+.tag-amber  { background: var(--amber-bg);  color: var(--amber); }
+
+.modal-overlay {
+  position: fixed; inset: 0;
+  background: rgba(0,0,0,0.4);
+  display: flex; align-items: center; justify-content: center;
+  z-index: 100;
+  padding: 24px;
+}
+.modal-box {
+  background: var(--bg);
+  border-radius: var(--radius-lg);
+  border: 0.5px solid var(--border);
+  width: 100%;
+  max-width: 480px;
+  max-height: 80vh;
+  overflow-y: auto;
+  padding: 24px;
+}
+.modal-close {
+  background: none;
+  border: none;
+  font-size: 20px;
+  color: var(--text2);
+  line-height: 1;
+}
+.modal-close:hover { color: var(--text); }

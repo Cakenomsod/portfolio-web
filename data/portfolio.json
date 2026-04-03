@@ -1,0 +1,29 @@
+[
+  {
+    "id": "todolist-app",
+    "titleKey": "portfolio.p1.title",
+    "descKey": "portfolio.p1.desc",
+    "tag": "React",
+    "tagColor": "blue",
+    "demoUrl": "https://todolistpkbell.web.app/",
+    "githubUrl": "https://github.com/Cakenomsod/checklist-app"
+  },
+  {
+    "id": "phetklao-bot",
+    "titleKey": "portfolio.p2.title",
+    "descKey": "portfolio.p2.desc",
+    "tag": "Python",
+    "tagColor": "green",
+    "demoUrl": "https://line.me/R/ti/p/%40990yryaj",
+    "githubUrl": "https://github.com/Cakenomsod/Line-bot-Phetklao"
+  },
+  {
+    "id": "auto-door",
+    "titleKey": "portfolio.p3.title",
+    "descKey": "portfolio.p3.desc",
+    "tag": "IoT",
+    "tagColor": "amber",
+    "demoUrl": null,
+    "githubUrl": "https://github.com/Cakenomsod/ArduinoEsp32-Project1"
+  }
+]

@@ -1,0 +1,109 @@
+{
+  "nav": {
+    "services": "บริการ",
+    "portfolio": "ผลงาน",
+    "contact": "ติดต่อ"
+  },
+  "hero": {
+    "badge": "พร้อมรับงานแล้ว",
+    "greeting": "สวัสดี, ผม",
+    "name": "เพชญเกล้า",
+    "sub": "Freelancer ที่ทำได้ครบในคนเดียว — Developer, Video Editor และช่างภาพ รับงานทั้งตลาดไทยและต่างประเทศ",
+    "cta_hire": "ติดต่อจ้างงาน",
+    "cta_work": "ดูผลงาน"
+  },
+  "sections": {
+    "services": "บริการทั้งหมด",
+    "portfolio": "ผลงานล่าสุด",
+    "contact": "ติดต่อ"
+  },
+  "services": {
+    "from": "เริ่มต้น",
+    "day": "วัน",
+    "contact_cta": "สอบถามราคา",
+    "packages_title": "แพ็กเกจ",
+    "s1": {
+      "title": "แปลง Design → โค้ด",
+      "desc": "Figma, PSD, JPG เป็น HTML / React",
+      "pkg1": { "name": "S — 1 หน้า", "desc": "แปลง 1 หน้า ไม่มี Animation" },
+      "pkg2": { "name": "M — 2–5 หน้า", "desc": "แปลง 2–5 หน้า ไม่มี Animation" },
+      "pkg3": { "name": "L — 6 หน้าขึ้นไป", "desc": "ราคาต่อหน้าถูกลง สอบถามเพิ่มเติม" }
+    },
+    "s2": {
+      "title": "สร้างเว็บพร้อม Host",
+      "desc": "Landing page ถึง Full website",
+      "pkg1": { "name": "Landing Page", "desc": "เว็บ 1 หน้า สำหรับโปรโมตสินค้า/บริการ" },
+      "pkg2": { "name": "Business 2–5 หน้า", "desc": "เว็บธุรกิจทั่วไป" },
+      "pkg3": { "name": "Pro 6+ หน้า", "desc": "เว็บครบสำหรับธุรกิจขนาดกลาง" }
+    },
+    "s3": {
+      "title": "Chatbot AI",
+      "desc": "Line / Website / Facebook",
+      "pkg1": { "name": "Basic — FAQ Bot", "desc": "ตอบข้อความตายตัว เหมาะกับ FAQ" },
+      "pkg2": { "name": "AI — Smart Bot", "desc": "บอทใช้ AI ตอบได้ตามบริบท" },
+      "pkg3": { "name": "Pro — AI + Database", "desc": "บอท AI เชื่อมต่อฐานข้อมูล" }
+    },
+    "s4": {
+      "title": "IoT & ESP32",
+      "desc": "ระบบอัตโนมัติ Online/Offline",
+      "pkg1": { "name": "Offline", "desc": "ควบคุมอุปกรณ์ไม่ต้องเชื่อมเน็ต" },
+      "pkg2": { "name": "IoT Basic", "desc": "ควบคุมผ่านแอปหรือดูข้อมูลออนไลน์" },
+      "pkg3": { "name": "IoT Pro", "desc": "IoT ครบ + แจ้งเตือน + Dashboard" }
+    },
+    "s5": {
+      "title": "ตัดต่อวิดีโอ",
+      "desc": "Reels, YouTube, Event",
+      "pkg1": { "name": "Short ≤ 1 นาที", "desc": "Reels / TikTok / Short สูงสุด 60 วินาที" },
+      "pkg2": { "name": "Standard 1–5 นาที", "desc": "YouTube, โฆษณา, แนะนำสินค้า" },
+      "pkg3": { "name": "Event 5+ นาที", "desc": "Highlight งานกีฬา, งานพิธี" }
+    },
+    "s6": {
+      "title": "ถ่ายภาพ",
+      "desc": "Portrait, Event, งานพิธี",
+      "pkg1": { "name": "Portrait", "desc": "1–2 ชั่วโมง ประมาณ 30–50 ภาพ" },
+      "pkg2": { "name": "Event ครึ่งวัน", "desc": "งานกีฬา, Event ครึ่งวัน" },
+      "pkg3": { "name": "Event เต็มวัน", "desc": "งานกีฬา, Event เต็มวัน" }
+    },
+    "s7": {
+      "title": "ตัดแต่งรูปภาพ",
+      "desc": "Retouch, ตัดพื้นหลัง, Colour Grade",
+      "pkg1": { "name": "ตัดพื้นหลัง", "desc": "ตัดพื้นหลังทั่วไปและซับซ้อน" },
+      "pkg2": { "name": "Retouch & ปรับสี", "desc": "Retouch บุคคล ปรับแสงสี" },
+      "pkg3": { "name": "Bulk 10+ รูป", "desc": "ยิ่งจำนวนมากยิ่งถูก" }
+    },
+    "s8": {
+      "title": "ปั้น 3D Model",
+      "desc": "Humanoid, Object, Place",
+      "pkg1": { "name": "Object", "desc": "สิ่งของ, ไอเทม, อาหาร" },
+      "pkg2": { "name": "Humanoid", "desc": "ตัวละคร, คน, Chibi" },
+      "pkg3": { "name": "Place", "desc": "ห้อง, ฉาก, สถานที่" }
+    }
+  },
+  "portfolio": {
+    "demo": "ดูตัวอย่าง",
+    "github": "GitHub",
+    "p1": {
+      "title": "ToDoList App",
+      "desc": "เว็บแอปจัดการงานพร้อมระบบ Login และ Real-time database ด้วย Firebase"
+    },
+    "p2": {
+      "title": "Phetklao Info Bot",
+      "desc": "Line Chatbot AI ตอบคำถามอัตโนมัติ ขับเคลื่อนด้วย Gemini API"
+    },
+    "p3": {
+      "title": "Auto Door ESP32",
+      "desc": "ระบบเปิด-ปิดประตูอัตโนมัติผ่านอินเทอร์เน็ต ควบคุมด้วย Blynk"
+    }
+  },
+  "contact": {
+    "heading": "พร้อมรับงานของคุณ",
+    "sub": "ทำตัวอย่างให้ดูก่อนฟรี ปรับแก้ไม่จำกัดรอบ",
+    "line": "Line",
+    "facebook": "Facebook",
+    "phone": "080-802-6677"
+  },
+  "footer": {
+    "copy": "© 2568 เพชญเกล้า จำปารัตน์",
+    "admin": "admin"
+  }
+}

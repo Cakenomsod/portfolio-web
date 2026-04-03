@@ -1,0 +1,114 @@
+[
+  {
+    "id": "design-to-code",
+    "category": "dev",
+    "icon": "💻",
+    "titleKey": "services.s1.title",
+    "descKey": "services.s1.desc",
+    "startPrice": 100,
+    "currency": "THB",
+    "packages": [
+      { "nameKey": "services.s1.pkg1.name", "descKey": "services.s1.pkg1.desc", "price": 100, "days": 1 },
+      { "nameKey": "services.s1.pkg2.name", "descKey": "services.s1.pkg2.desc", "price": 300, "days": 3 },
+      { "nameKey": "services.s1.pkg3.name", "descKey": "services.s1.pkg3.desc", "price": 500, "days": 5 }
+    ]
+  },
+  {
+    "id": "website-hosting",
+    "category": "dev",
+    "icon": "🌐",
+    "titleKey": "services.s2.title",
+    "descKey": "services.s2.desc",
+    "startPrice": 800,
+    "currency": "THB",
+    "packages": [
+      { "nameKey": "services.s2.pkg1.name", "descKey": "services.s2.pkg1.desc", "price": 800,  "days": 3 },
+      { "nameKey": "services.s2.pkg2.name", "descKey": "services.s2.pkg2.desc", "price": 1500, "days": 5 },
+      { "nameKey": "services.s2.pkg3.name", "descKey": "services.s2.pkg3.desc", "price": 2500, "days": 7 }
+    ]
+  },
+  {
+    "id": "chatbot-ai",
+    "category": "dev",
+    "icon": "🤖",
+    "titleKey": "services.s3.title",
+    "descKey": "services.s3.desc",
+    "startPrice": 1000,
+    "currency": "THB",
+    "packages": [
+      { "nameKey": "services.s3.pkg1.name", "descKey": "services.s3.pkg1.desc", "price": 1000, "days": 3 },
+      { "nameKey": "services.s3.pkg2.name", "descKey": "services.s3.pkg2.desc", "price": 2000, "days": 5 },
+      { "nameKey": "services.s3.pkg3.name", "descKey": "services.s3.pkg3.desc", "price": 3500, "days": 7 }
+    ]
+  },
+  {
+    "id": "iot-esp32",
+    "category": "dev",
+    "icon": "📡",
+    "titleKey": "services.s4.title",
+    "descKey": "services.s4.desc",
+    "startPrice": 300,
+    "currency": "THB",
+    "packages": [
+      { "nameKey": "services.s4.pkg1.name", "descKey": "services.s4.pkg1.desc", "price": 300,  "days": 3 },
+      { "nameKey": "services.s4.pkg2.name", "descKey": "services.s4.pkg2.desc", "price": 2000, "days": 5 },
+      { "nameKey": "services.s4.pkg3.name", "descKey": "services.s4.pkg3.desc", "price": 7000, "days": 7 }
+    ]
+  },
+  {
+    "id": "video-editing",
+    "category": "video",
+    "icon": "🎬",
+    "titleKey": "services.s5.title",
+    "descKey": "services.s5.desc",
+    "startPrice": 300,
+    "currency": "THB",
+    "packages": [
+      { "nameKey": "services.s5.pkg1.name", "descKey": "services.s5.pkg1.desc", "price": 300,  "days": 1 },
+      { "nameKey": "services.s5.pkg2.name", "descKey": "services.s5.pkg2.desc", "price": 500,  "days": 2 },
+      { "nameKey": "services.s5.pkg3.name", "descKey": "services.s5.pkg3.desc", "price": 1000, "days": 3 }
+    ]
+  },
+  {
+    "id": "photography",
+    "category": "photo",
+    "icon": "📷",
+    "titleKey": "services.s6.title",
+    "descKey": "services.s6.desc",
+    "startPrice": 500,
+    "currency": "THB",
+    "packages": [
+      { "nameKey": "services.s6.pkg1.name", "descKey": "services.s6.pkg1.desc", "price": 500,  "days": 3 },
+      { "nameKey": "services.s6.pkg2.name", "descKey": "services.s6.pkg2.desc", "price": 1500, "days": 5 },
+      { "nameKey": "services.s6.pkg3.name", "descKey": "services.s6.pkg3.desc", "price": 2500, "days": 7 }
+    ]
+  },
+  {
+    "id": "photo-editing",
+    "category": "photo",
+    "icon": "🖼️",
+    "titleKey": "services.s7.title",
+    "descKey": "services.s7.desc",
+    "startPrice": 30,
+    "currency": "THB",
+    "packages": [
+      { "nameKey": "services.s7.pkg1.name", "descKey": "services.s7.pkg1.desc", "price": 30,  "days": 1 },
+      { "nameKey": "services.s7.pkg2.name", "descKey": "services.s7.pkg2.desc", "price": 75,  "days": 1 },
+      { "nameKey": "services.s7.pkg3.name", "descKey": "services.s7.pkg3.desc", "price": 0,   "days": 3 }
+    ]
+  },
+  {
+    "id": "3d-modeling",
+    "category": "model",
+    "icon": "🧊",
+    "titleKey": "services.s8.title",
+    "descKey": "services.s8.desc",
+    "startPrice": 550,
+    "currency": "THB",
+    "packages": [
+      { "nameKey": "services.s8.pkg1.name", "descKey": "services.s8.pkg1.desc", "price": 550,  "days": 3 },
+      { "nameKey": "services.s8.pkg2.name", "descKey": "services.s8.pkg2.desc", "price": 1050, "days": 5 },
+      { "nameKey": "services.s8.pkg3.name", "descKey": "services.s8.pkg3.desc", "price": 1250, "days": 7 }
+    ]
+  }
+]

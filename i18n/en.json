@@ -1,0 +1,109 @@
+{
+  "nav": {
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "contact": "Contact"
+  },
+  "hero": {
+    "badge": "Available for work",
+    "greeting": "Hi, I'm",
+    "name": "Phetklao",
+    "sub": "Full-stack freelancer — Developer, Video Editor & Photographer. Available for Thai and international clients.",
+    "cta_hire": "Hire me",
+    "cta_work": "View work"
+  },
+  "sections": {
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "contact": "Contact"
+  },
+  "services": {
+    "from": "starting at",
+    "day": "day",
+    "contact_cta": "Get a quote",
+    "packages_title": "Packages",
+    "s1": {
+      "title": "Design to Code",
+      "desc": "Figma, PSD, JPG → HTML / React",
+      "pkg1": { "name": "S — 1 page", "desc": "Convert 1 page, no animation" },
+      "pkg2": { "name": "M — 2–5 pages", "desc": "Convert 2–5 pages, no animation" },
+      "pkg3": { "name": "L — 6+ pages", "desc": "Per-page rate decreases, ask for quote" }
+    },
+    "s2": {
+      "title": "Website + Hosting",
+      "desc": "Landing page to full website",
+      "pkg1": { "name": "Landing Page", "desc": "1 page for product/service promotion" },
+      "pkg2": { "name": "Business 2–5 pages", "desc": "General business website" },
+      "pkg3": { "name": "Pro 6+ pages", "desc": "Full website for medium-sized business" }
+    },
+    "s3": {
+      "title": "AI Chatbot",
+      "desc": "Line / Website / Facebook",
+      "pkg1": { "name": "Basic — FAQ Bot", "desc": "Fixed responses, great for FAQ" },
+      "pkg2": { "name": "AI — Smart Bot", "desc": "Context-aware AI responses" },
+      "pkg3": { "name": "Pro — AI + Database", "desc": "AI bot connected to a database" }
+    },
+    "s4": {
+      "title": "IoT & ESP32",
+      "desc": "Online/Offline automation systems",
+      "pkg1": { "name": "Offline", "desc": "Control devices without internet" },
+      "pkg2": { "name": "IoT Basic", "desc": "Control via app or monitor online" },
+      "pkg3": { "name": "IoT Pro", "desc": "Full IoT + alerts + dashboard" }
+    },
+    "s5": {
+      "title": "Video Editing",
+      "desc": "Reels, YouTube, Event highlights",
+      "pkg1": { "name": "Short ≤ 1 min", "desc": "Reels / TikTok / Shorts up to 60s" },
+      "pkg2": { "name": "Standard 1–5 min", "desc": "YouTube, ads, product showcase" },
+      "pkg3": { "name": "Event 5+ min", "desc": "Sports, ceremony, event highlights" }
+    },
+    "s6": {
+      "title": "Photography",
+      "desc": "Portrait, Event, Ceremony",
+      "pkg1": { "name": "Portrait", "desc": "1–2 hrs, approx. 30–50 photos" },
+      "pkg2": { "name": "Half-day Event", "desc": "Sports, events, half day" },
+      "pkg3": { "name": "Full-day Event", "desc": "Sports, events, full day" }
+    },
+    "s7": {
+      "title": "Photo Editing",
+      "desc": "Retouch, background removal, colour grading",
+      "pkg1": { "name": "Background Removal", "desc": "Standard and complex backgrounds" },
+      "pkg2": { "name": "Retouch & Colour", "desc": "Portrait retouch, light & colour adjust" },
+      "pkg3": { "name": "Bulk 10+ photos", "desc": "More photos, lower per-photo rate" }
+    },
+    "s8": {
+      "title": "3D Modeling",
+      "desc": "Humanoid, Object, Place",
+      "pkg1": { "name": "Object", "desc": "Items, props, food" },
+      "pkg2": { "name": "Humanoid", "desc": "Characters, people, Chibi" },
+      "pkg3": { "name": "Place", "desc": "Room, scene, location" }
+    }
+  },
+  "portfolio": {
+    "demo": "Live demo",
+    "github": "GitHub",
+    "p1": {
+      "title": "ToDoList App",
+      "desc": "Task management web app with Login system and real-time database via Firebase"
+    },
+    "p2": {
+      "title": "Phetklao Info Bot",
+      "desc": "Line Chatbot with AI auto-reply powered by Gemini API"
+    },
+    "p3": {
+      "title": "Auto Door ESP32",
+      "desc": "Internet-controlled auto door system managed via Blynk"
+    }
+  },
+  "contact": {
+    "heading": "Ready to work with you",
+    "sub": "Free sample before you commit. Unlimited revisions.",
+    "line": "Line",
+    "facebook": "Facebook",
+    "phone": "080-802-6677"
+  },
+  "footer": {
+    "copy": "© 2025 Phetklao Champarath",
+    "admin": "admin"
+  }
+}
