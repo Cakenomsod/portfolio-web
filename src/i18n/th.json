@@ -50,13 +50,7 @@
       "pkg2": { "name": "AI — Smart Bot", "desc": "บอทใช้ AI ตอบได้ตามบริบท" },
       "pkg3": { "name": "Pro — AI + Database", "desc": "บอท AI เชื่อมต่อฐานข้อมูล" }
     },
-    "s5": {
-      "title": "ตั้งค่า Line OA ครบวงจร",
-      "desc": "Rich Menu, Auto Reply, บอทอัตโนมัติ",
-      "pkg1": { "name": "Basic — ตั้งค่าพื้นฐาน", "desc": "Profile, Welcome Message, Rich Menu สวยงาม" },
-      "pkg2": { "name": "Auto — ระบบตอบกลับ", "desc": "FAQ ตามคีย์เวิร์ด + บันทึกข้อมูลลง Google Sheets" },
-      "pkg3": { "name": "AI Bot — บอทฉลาด", "desc": "บอท AI เข้าใจบริบท ตอบคำถามแทนคุณได้ 24 ชม." }
-    },
+
     "s6": {
       "title": "IoT & ESP32",
       "desc": "ระบบอัตโนมัติ Online/Offline",

@@ -55,20 +55,7 @@
       { "nameKey": "services.s4.pkg3.name", "descKey": "services.s4.pkg3.desc", "price": 3500, "days": 7 }
     ]
   },
-  {
-    "id": "line-oa-setup",
-    "category": "dev",
-    "icon": "💬",
-    "titleKey": "services.s5.title",
-    "descKey": "services.s5.desc",
-    "startPrice": 500,
-    "currency": "THB",
-    "packages": [
-      { "nameKey": "services.s5.pkg1.name", "descKey": "services.s5.pkg1.desc", "price": 500,  "days": 2 },
-      { "nameKey": "services.s5.pkg2.name", "descKey": "services.s5.pkg2.desc", "price": 1500, "days": 5 },
-      { "nameKey": "services.s5.pkg3.name", "descKey": "services.s5.pkg3.desc", "price": 3500, "days": 7 }
-    ]
-  },
+
   {
     "id": "iot-esp32",
     "category": "dev",
