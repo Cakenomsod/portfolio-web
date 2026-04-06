@@ -50,13 +50,6 @@
       "pkg2": { "name": "AI — Smart Bot", "desc": "Context-aware AI responses" },
       "pkg3": { "name": "Pro — AI + Database", "desc": "AI bot connected to a database" }
     },
-    "s5": {
-      "title": "Line OA Setup",
-      "desc": "Rich Menu, Auto Reply, Chatbot",
-      "pkg1": { "name": "Basic Setup", "desc": "Profile, Welcome Message, Custom Rich Menu" },
-      "pkg2": { "name": "Auto — FAQ System", "desc": "Keyword-based replies + Google Sheets integration" },
-      "pkg3": { "name": "AI Bot — Smart Assistant", "desc": "Context-aware AI bot to handle your customers 24/7" }
-    },
     "s6": {
       "title": "IoT & ESP32",
       "desc": "Online/Offline automation systems",
